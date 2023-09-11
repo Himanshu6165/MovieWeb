@@ -1,0 +1,17 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+.favorites {
+    margin: 20px;
+  }
+  
+  .favorite-movies-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .favorite-movie {
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* background-color: #f9f9f9; */
+  }
+  
