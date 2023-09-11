@@ -30,6 +30,12 @@ const Movie = () => {
             movieDetail: currentMovieDetail,
             userId: userId,
         });
+        toast({
+            title: 'Movie added to favourites',
+            status: 'success',
+            duration: 9000,
+            isClosable: true,
+          })
     }
 
     const addToWatchlist = async () => {
@@ -40,6 +46,12 @@ const Movie = () => {
             movieDetail: currentMovieDetail,
             userId: userId,
         });
+        toast({
+            title: 'Movie added to watchlist',
+            status: 'success',
+            duration: 9000,
+            isClosable: true,
+          })
     }
     const Playfunction = async () => {
         toast({
